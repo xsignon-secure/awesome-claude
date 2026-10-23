@@ -13,7 +13,6 @@ authorProfileUrl: "https://github.com/xsignon-secure"
 dateAdded: "2026-10-23"
 repoUrl: "https://github.com/xsignon-secure/EffectivePasskey"
 documentationUrl: "https://github.com/xsignon-secure/EffectivePasskey#readme"
-websiteUrl: "https://xsignon-secure.github.io/EffectivePasskey/"
 downloadUrl: "https://github.com/xsignon-secure/EffectivePasskey/releases/download/v0.3.0/effective-passkey-skill.zip"
 installable: true
 installCommand: "pip install effective-passkey"
@@ -46,7 +45,7 @@ safetyNotes:
   - "It never writes to a Microsoft Entra tenant. The optional PowerShell collector makes read-only Microsoft Graph GET requests with the read scopes you grant."
 privacyNotes:
   - "Reads tenant export files (users, groups, roles, policies, optional sign-in logs) from local disk; reports stay on your machine."
-  - "No telemetry, no accounts, and no calls to any third-party service. The collector talks only to Microsoft Graph using your own sign-in."
+  - "No telemetry, no accounts, and no calls to any third-party endpoint. The collector talks only to Microsoft Graph using your own sign-in."
 tags:
   - entra
   - passkeys
